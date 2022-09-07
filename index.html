@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="timer-wrap">
+                <div id="timer">00:00:000</div>
+                <button onclick="playTimer('start')">Start</button>
+                <button onclick="playTimer('stop')">Stop</button>
+                <button onclick="playTimer('reset')">Reset</button>
+            </div>
+            <div>
+                <h3>HOME</h3>
+                <div id="home" class="score">0</div>
+                <div class="buttons">
+                    <button onclick="addScore(1, 'home')">+1</button>
+                    <button onclick="addScore(2, 'home')">+2</button>
+                    <button onclick="addScore(3, 'home')">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div id="guest" class="score">0</div>
+                <div class="buttons">
+                    <button onclick="addScore(1, 'guest')">+1</button>
+                    <button onclick="addScore(2, 'guest')">+2</button>
+                    <button onclick="addScore(3, 'guest')">+3</button>
+                </div>               
+            </div>
+            <div class="reset-wrap">
+                <button onclick="resetScore()">Reset</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

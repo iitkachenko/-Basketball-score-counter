@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #1b244a;
+    width: 575px;
+    margin: auto;
+    padding: 50px 0 70px;
+}
+
+.timer-wrap, .reset-wrap {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#timer {
+    font-size: 40px;
+    font-family: monospace;
+}
+
+button {
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid #9aabd8;
+    border-radius: 5px;
+    color: #9aabd8;
+    cursor: pointer;
+}
+
+button:hover {
+    border-color: #fff;
+    color: #fff;
+}
+
+.timer-wrap button {
+    margin: 10px 3px 0;
+    height: 45px;
+    padding: 0 10px;
+}
+
+h3 {
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    text-align: center;
+    color: #f94f6d;
+    background-color: #000;
+    padding: 0 20px;
+    margin: 20px 0 25px;
+    width: 155px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    width: 45px;
+    height: 45px;
+}
+
+.reset-wrap {
+    margin: 20px 0 0;
+}
+
+.reset-wrap button {
+    height: 45px;
+    padding: 0 10px;
+}
