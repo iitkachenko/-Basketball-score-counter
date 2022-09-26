@@ -1,6 +1,13 @@
+@font-face { 
+    font-family: "Cursed Timer ULiL";
+    src: /*url(WebFont.eot?) format("eot"), 
+         url(WebFont.woff) format("woff"),*/ 
+         url(fonts/CursedTimerULiL.ttf) format("truetype");
+}
+
 body {
     margin: 0;
-    font-family: 'Cursed Timer ULiL';
+    font-family: 'Cursed Timer ULiL', monospace;
     font-size: 18px;
 }
 
@@ -23,7 +30,7 @@ body {
 
 #timer {
     font-size: 40px;
-    font-family: monospace;
+    /*font-family: monospace;*/
 }
 
 button {
@@ -33,6 +40,7 @@ button {
     border-radius: 5px;
     color: #9aabd8;
     cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button:hover {
@@ -47,7 +55,7 @@ button:hover {
 }
 
 h3 {
-    font-family: 'Verdana', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 40px;
     text-align: center;
@@ -63,7 +71,7 @@ h3 {
     text-align: center;
     color: #f94f6d;
     background-color: #000;
-    padding: 0 20px;
+    padding: 15px 20px 0;
     margin: 20px 0 25px;
     width: 155px;
     height: 120px;
@@ -78,6 +86,7 @@ h3 {
 .buttons button {
     width: 45px;
     height: 45px;
+    font-family: 'Cursed Timer ULiL', monospace;
 }
 
 .reset-wrap {
